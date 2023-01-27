@@ -39,19 +39,20 @@ function addTiles() {
 
                 tile.style.backgroundColor = "black";
 
-            } else if (k % 2 === 0) {
+            } else if (i % 2 !== 0) {
 
                 tile.classList.add("odd");
 
-                tile.style.backgroundColor = "black";
+                tile.style.backgroundColor = "red";
 
-            } else if (i % 2 !== 0) {
+            }
+            if (k % 2 === 0) {
 
                 tile.classList.add("even");
 
-                tile.style.backgroundColor = "red";
+                tile.style.backgroundColor = "black";
 
-            } else if (k % 2 !== 0) {
+            }  else if (k % 2 !== 0) {
 
                 tile.classList.add("odd");
 
