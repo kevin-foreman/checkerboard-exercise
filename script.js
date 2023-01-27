@@ -34,31 +34,20 @@ function addTiles() {
             tile.style.paddingBottom = "11.1%";
 
             if (i % 2 === 0) {
-
                 tile.classList.add("even");
-
                 tile.style.backgroundColor = "black";
-
             } else if (i % 2 !== 0) {
-
                 tile.classList.add("odd");
-
                 tile.style.backgroundColor = "red";
+            };
 
-            }
             if (k % 2 === 0) {
-
                 tile.classList.add("even");
-
                 tile.style.backgroundColor = "black";
-
             }  else if (k % 2 !== 0) {
-
                 tile.classList.add("odd");
-
                 tile.style.backgroundColor = "red";
-
-            }
+            };
 
             document.body.appendChild(tile);
 
